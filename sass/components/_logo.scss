@@ -1,0 +1,17 @@
+.logo {
+  margin-right: 94px;
+  text-align: center;
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--web-logo-color);
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  color: var(--studio-logo-color);
+}

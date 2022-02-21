@@ -1,0 +1,18 @@
+.contact-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact-link {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 500;
+
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  fill: currentColor;
+  display: flex;
+  align-items: center;
+}
+.contact-list__icon {
+  margin-right: 10px;
+}
