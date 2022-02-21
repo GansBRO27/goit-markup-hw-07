@@ -6,6 +6,10 @@
   position: absolute;
   left: 12px;
   top: 11px;
+  .modal-form__user-data:focus + & {
+    fill: var(--fover-focus-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .modal-form__user-data {
@@ -16,10 +20,6 @@
   cursor: pointer;
   padding-left: 42px;
   outline: 0;
-  &:focus + .modal-form__icon {
-    fill: var(--fover-focus-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
   &:focus {
     border-color: var(--fover-focus-color);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
